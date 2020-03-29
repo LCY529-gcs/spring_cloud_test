@@ -7,11 +7,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/LCY529-gcs/springcloud-config.git
+          uri: git@gitee.com:chang_yu_lu/spring_cloud_test.git
           search-paths:
-            - springcloud-config
-          username: LCY529-gcs
-          password: lvchangyu5290..
+            - spring_cloud_test
       label: master
 
 eureka:
